@@ -14,7 +14,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 @GameRegistry.ObjectHolder("backrooms")
 @Mod.EventBusSubscriber
 public class ItemsRegistry {
-    @GameRegistry.ObjectHolder("key")
+    @GameRegistry.ObjectHolder("ring")
     public static final Item RING = null;
 
     @SubscribeEvent
