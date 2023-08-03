@@ -1,6 +1,6 @@
-package com.integral.backrooms.init;
+package com.forohon.backrooms.init;
 
-import com.integral.backrooms.Items.ring;
+import com.forohon.backrooms.Items.ring;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;

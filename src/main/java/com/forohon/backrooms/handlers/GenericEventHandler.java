@@ -1,7 +1,7 @@
-package com.integral.backrooms.handlers;
+package com.forohon.backrooms.handlers;
 
-import com.integral.backrooms.Backrooms;
-import com.integral.backrooms.network.packets.ExamplePacket;
+import com.forohon.backrooms.Backrooms;
+import com.forohon.backrooms.network.packets.ExamplePacket;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;

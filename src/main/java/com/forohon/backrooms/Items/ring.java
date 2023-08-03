@@ -1,4 +1,4 @@
-package com.integral.backrooms.Items;
+package com.forohon.backrooms.Items;
 
 import net.minecraft.item.Item;
 

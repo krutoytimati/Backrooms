@@ -1,5 +1,9 @@
-package com.integral.backrooms;
+package com.forohon.backrooms;
 
+import com.forohon.backrooms.handlers.ExampleConfig;
+import com.forohon.backrooms.handlers.GenericEventHandler;
+import com.forohon.backrooms.network.packets.ExamplePacket;
+import com.forohon.backrooms.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -18,11 +22,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.integral.backrooms.handlers.ExampleConfig;
-import com.integral.backrooms.handlers.GenericEventHandler;
-import com.integral.backrooms.network.packets.ExamplePacket;
-import com.integral.backrooms.proxy.CommonProxy;
-
 @Mod(modid = Backrooms.MODID, version = Backrooms.VERSION, name = Backrooms.NAME)
 public class Backrooms {
     public static final String MODID = "backrooms";
@@ -31,7 +30,7 @@ public class Backrooms {
 
     public static SimpleNetworkWrapper packetHandler;
 
-    @SidedProxy(clientSide = "com.forohon.backrooms.proxy.ClientProxy", serverSide = "com.forohon.backrooms.proxy.CommonProxy")
+    @SidedProxy(clientSide = "proxy.com.forohon.backrooms.ClientProxy", serverSide = "proxy.com.forohon.backrooms.CommonProxy")
     public static CommonProxy proxy;
 
     public static final Logger logger = LogManager.getLogger("Backrooms");

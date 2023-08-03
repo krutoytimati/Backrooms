@@ -1,4 +1,4 @@
-package com.integral.backrooms.proxy;
+package com.forohon.backrooms.proxy;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
